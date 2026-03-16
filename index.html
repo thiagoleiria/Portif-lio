@@ -1,0 +1,190 @@
+<?php
+include 'curriculo.php';
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="IE=edge">
+    <title>Thiago Rodrigues Portifólio</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  
+  <header class="header">
+    <a href="#" class="logo">Portifolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#sobre">Sobre mim</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#portifolio">Portifolio</a>
+      
+      
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Olá, me chamo</h3>
+      <h1>Thiago Leiria</h1>
+      <h3>Eu sou <span>Designer</span> </h3>
+      <p>Estou sempre em busca de novos conhecimentos!</p>
+      <div class="social-media">
+        <a href="https://www.instagram.com/leiriadsigner/"><i class='bx bxl-instagram-alt' ></i></a>
+        <a href="https://www.linkedin.com/in/thiago-rodrigues-298466200/"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://wa.me/+5581989739414"><i class='bx bxl-whatsapp' ></i></a>
+        <a href="mailto:thiagoleiria70@gmail.com"><i class='bx bx-envelope' ></i></a>
+      </div>
+      <a href="curriculo.php" class="btn">Download CV</a>
+    </div>
+    <div class="home-img">
+      <img src="imagens/curriculofoto.png" >
+    </div>
+  </section>
+
+<section class="sobre" id="sobre">
+  <div class="sobre-img">
+    <img src="imagens/eueueu.png" >
+  </div>
+  <div class="sobre-content">
+    <h2 class="cabecalho">Sobre <span>Mim</span></h2>
+    <h3>Designer!</h3>
+<p>Sou Designer Visual com foco em criar interfaces que equilibram estética refinada e funcionalidade intuitiva. Acredito que o design é a ferramenta mais poderosa para traduzir ideias complexas em experiências digitais simples e memoráveis.<br><br>
+  <span id="pontos">...</span> <span id="mais">
+Meu trabalho é pautado pela atenção aos detalhes e pelo compromisso com o Design Responsivo e a Usabilidade. Busco constantemente a harmonia entre o que é visualmente impactante e o que é tecnicamente eficiente, garantindo que cada projeto não apenas chame a atenção, mas resolva problemas reais de forma elegante.
+<br><br>
+Estou sempre em busca de novas colaborações e projetos que desafiem minha criatividade e me permitam elevar o padrão das experiências digitais.
+<br><br>Vamos criar algo incrível juntos!
+</span>
+</p>
+<button onclick="saibamais()" id="btnsaibamais" class="btn">Saiba Mais</button>
+
+</div>
+</section>
+<section class="servicos" id="servicos">
+  <h2 class="cabecalho">Meus <span>Serviços</span></h2>
+<div class="servicos-container">
+  <div class="servicos-box">
+    <i class='bx bx-code-alt' ></i>
+    <h3>Webdesigner</h3>
+    <p>Sou um webdesigner iniciante em busca de novos aprendizados, ja fiz cursos de design e tenho uma visão artistica.</p>
+    <a href="#portifolio" class="btn">Saiba mais</a>
+  </div>
+
+  <div class="servicos-box">
+    <i class='bx bxs-paint' ></i>
+    <h3>Designer Gráfico</h3>
+    <p>Sou um design com experiência, ja fiz varios projetos e estou preparado para novas oportunidades, confira alguns dos meus projetos no botão abaixo!</p>
+    <a href="#portifolio" class="btn">Saiba mais</a>
+  </div>
+</div>
+</section>
+
+<section class="portifolio" id="portifolio">
+    <h2 class="cabecalho">Trabalhos <span>Recentes</span></h2>
+
+    <div class="portifolio-container">
+      <div class="portifolio-box">
+        <img src="imagens/merlin.jpg">
+        <div class="portifolio-layer">
+          <h4>Capa de Álbum</h4>
+          <p>...</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+
+      <div class="portifolio-box">
+        <img src="imagens/key.jpg">
+        <div class="portifolio-layer">
+          <h4>Capa de Álbum</h4>
+          <p>...</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+
+      <div class="portifolio-box">
+        <img src="imagens/fake.jpg">
+        <div class="portifolio-layer">
+          <h4>Capa de Álbum</h4>
+          <p>...</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+
+      <div class="portifolio-box">
+        <img src="imagens/LeticiaARQ.jpg">
+        <div class="portifolio-layer">
+          <h4>Designer Gráfico</h4>
+          <p>...</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+
+      <div class="portifolio-box">
+        <img src="imagens/Dogaocarna.jpg">
+        <div class="portifolio-layer">
+          <h4>Designer Gráfico</h4>
+          <p>...</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+
+      <div class="portifolio-box">
+        <img src="imagens/açai.jpg">
+        <div class="portifolio-layer">
+          <h4>Designer Gráfico</h4>
+          <p>...</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+          
+      <div class="portifolio-box">
+        <img src="imagens/HAMBURGUER.png">
+        <div class="portifolio-layer">
+          <h4>Designer Gráfico</h4>
+          <p>...</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+
+       <div class="portifolio-box">
+        <img src="imagens/clinica.png">
+        <div class="portifolio-layer">
+          <h4>Designer Gráfico</h4>
+          <p>...</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+
+       <div class="portifolio-box">
+        <img src="imagens/ener.jpg">
+        <div class="portifolio-layer">
+          <h4>Designer Gráfico</h4>
+          <p>...</p>
+          <a href="#"><i class='bx bx-link-external' ></i></a>
+        </div>
+      </div>
+
+    </div>
+</section>
+<!-- footer -->
+<footer class="footer">
+  <div class="footer-text">
+    <p>© COPYRIGHT 2026 – Thiago Rodrigues – Todos os direitos reservados.</p>
+  </div>
+
+  <div class="footer-icontop">
+    <a href="#"><i class='bx bx-up-arrow-alt' ></i></a>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
